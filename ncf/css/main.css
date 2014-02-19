@@ -180,21 +180,66 @@ textarea {
 }
 
 
+html{
+   background-color: #f7f7f7;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 0.875em;
+    color: #666;
+}
 
 header nav ul li {
     list-style-type: none;
     float:           left;
     margin-right:    10px;
+    padding-left:    2px;
+    padding-right:   2px;
+    background-color: #eaeaea;
 
+}
+
+header #navone {
+    margin-left: -40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #740000;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #740000;
 }
 
 ul {
     list-style-type: none;
 }
 
+footer {
+    background-color: #eaeaea;  
+}
+
 .expdates {
     font-size: smaller;
     float:right;
+}
+
+.caption {
+    display: block;
+    position: relative;
+    margin-left: -95px;
+    margin-top: 85px;
 }
 
 #logo img {
@@ -208,11 +253,24 @@ ul {
     font-weight: 700;
 }
 
+#socmedialinks span {
+    float: left;
+    padding: 10px;
+}
+
 #socmedialinks img {
     float: left;
+    padding: 10px;
+}
+
+#firstname {
+    font-family: Verdana, sans-serif;
+    color: #000;
 }
 
 #surname {
+    font-family: Verdana, sans-serif;
+    color: #000;
     position:relative;
     margin-top: -40px;
     margin-left: 30px;
