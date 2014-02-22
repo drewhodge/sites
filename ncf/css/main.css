@@ -278,6 +278,11 @@ ul {
     margin-top: 85px;
 }
 
+.styledlist {
+    list-style: square;
+}
+
+
 #logo img {
     float: right;
     position:relative;
