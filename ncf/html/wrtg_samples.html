@@ -65,61 +65,81 @@
         <article>
             <div class="row">
                 <section>
-                    <div class="column one-third">
+                    <div class="column one-fourth">
                         <h2>User Guides</h2>
                     </div>
-                    <div class="column one-third">
-                        <p>A user guide contains information about how to install, configure, and make use of a hardware device, system, product, or software application, although sometimes installation, configuration, and troubleshooting instructions might be presented in separate documents. The intended audience for such information is anyone who needs to carry out these tasks, so the type of information in a guide can be quite varied.  User guides might contain conceptual and reference information as well as sets of steps, or procedures, for performing common operations.</p>
+                    <div class="column one-fourth">
+                        <p>A user guide contains information about how to install, configure, and make use of a hardware device, system, product, or software application, although sometimes installation, configuration, and troubleshooting instructions might be presented in separate documents. User guides might contain conceptual and reference information as well as sets of steps, or procedures, for performing common operations.</p>
                         <p>The user guide samples here are examples of two methods of presenting technical information: as single PDF documents (or extracts of PDF documents), and as sets of individual HTML files (topics) that comprise the guide.  The latter method enables the documentation to be integrated into the help system of an application or software tool and to be read online.  Presenting information in a PDF document enables users to download the file for offline viewing or printing.</p>
                         
                     </div>
-                    <div class="column one-third">
+                    <div class="column half">
                         <dl>
-                            <dt>IBM Rational developer tools (online help)</dt>
+                            <dt>Online help samples</dt>
                             <dd>
-                                <p>The following links open HTML files for reading online:</p>
+                                <p>The following links open HTML files for reading online. I wrote this content using DITA and the Arbortext XML editor for IBM Rational Software documentation and demonstrate DITA's typical concept, task, reference structure.</p>
                                 <ul class="styledlist">
                                     <li><a href="../res/docsamples/analysis-online-help/com.ibm.xtools.analysis.common.doc.toc.html">Analyzing source code through static analysis</a></li>
-                                    <li><a href="../res/docsamples/analysis-online-help/com.ibm.xtools.analysis.codereview.java.doc.toc">Performing an automated code review</a></li>
+                                    <li><a href="../res/docsamples/analysis-online-help/com.ibm.xtools.analysis.codereview.java.doc.toc.html">Performing an automated code review</a></li>
                                     <li><a href="../res/docsamples/analysis-online-help/com.ibm.xtools.analysis.archdiscovery.java.doc.toc.html">Detecting patterns in Java source code</a></li>
+                                </ul>
+                            </dd>
+                            <dt>Programmer's guide sample</dt>
+                            <dd>
+                                <p>This PDF document, <a href="../res/docsamples/java-toolkit-guide/ettkjava_prog_guide.pdf">Entrust Security Toolkit for Java</a>, is for a developer audience. The guide describes how to use a set of application programming interfaces (APIs) for cryptographic operations in Entrust's Public Key Infrastructure.</p>
+                                <p>At the time I wrote this document, we were using an in-house XML vocabulary that I helped to design.  I wrote this sample document in XML and transformed the source to XSL formatting objects (XSL-FO) using XSLT transformation scripts.  I was then able to render the XSL-FO source as the final PDF with the RenderX formatting engine.  I've included samples of the scripts I used for this task in the <a href="#sourcecode">source code</a> section of this page.</p>
+                            </dd>
+                            <dt>User's guide sample</dt>
+                            <dd>Another PDF document&#8212;a <a href="../res/docsamples/wr-workbench/c-plugins.pdf">section of a user's guide</a>&#8212; that describes how to integrate plug-ins into the Wind River Workbench developer tool that's based on the Eclipse Integrated Development Environment (IDE). I wrote this document using Frame Maker.</dd>
+                        </dl>
+                    </div>
+                </section>
+            </div>
+            <div class="row">
+                <section>
+                    <div class="column one-fourth">
+                        <h2>Administration Guides</h2>
+                    </div>
+                    <div class="column one-fourth">
+                        <p>An administration guide is really a user guide that's written for a specific audience, the administrator of a computer hardware or software system.  An administrator might be responsible for the installation, configuration, and continuing maintenance of hardware components and software, so the content of an administrator guide contains information appropriate to these tasks.</p>
+                    </div>
+                    <div class="column half">
+                        <dl>
+                            <dt>Administration guide samples</dt>
+                            <dd>
+                                <p>The following links open PDF files. The two sample documents in this section are for Entrust's Identification and Entitlements Servers, and for the Application Server Runtimes&#8212;security extensions for the BEA WebLogic Server and IBM WebSphere Application Server. To write these documents, I used Frame Maker.</p>
+                                <ul class="styledlist">
+                                    <li><a href="../res/docsamples/admin-guides/id_entitlements_server_guide.pdf">Entrust Identification/Entitlements Server</a></li>
+                                    <li><a href="../res/docsamples/admin-guides/app_server_runtimes_guide.pdf">Entrust Application Server Runtimes</a></li>
                                 </ul>
                             </dd>
                         </dl>
                     </div>
                 </section>
             </div>
-            <div class="row">
-                <section>
-                    <div class="column one-third">
-                        <h2>Administrator Guides</h2>
-                    </div>
-                    <div class="column two-thirds">
-                        <dl>
-                            <dt>Markup languages:</dt>
-                            <dd>XML (familiar with standard XML dialects, DITA, DocbookX), XHTML, HTML, LaTeX, and Markdown</dd>
-                            <dt>Programming languages:</dt>
-                            <dd>XSLT, some familiarity with: Java, C, C++, C#, Python, Javascript, Scala, and Clojure</dd>
-                            <dt>Operating systems:</dt>
-                            <dd>Apple Mac OS X, Microsoft Windows, Linux</dd>
-                            <dt>Tools:</dt>
-                            <dd>Eclipse, Oxygen XML editor, XMetaL, XML Spy, Doc-O-Matic, Frame Maker, several text editors, Camtasia Studio, Microsoft Visual Studio, Microsoft Office, OpenOffice, Xalan, Xerces, FOP, Ant, SVN, Git, and other open source tools</dd>
-                        </dl>
-                        
-                    </div>
-                </section>
-            </div>
         </article>
         <article>
             <div class="row">
                 <section>
-                    <div class="column one-third">
+                    <div class="column one-fourth">
                         <h2>Reference Documentation</h2>
                     </div>
-                    <div class="column one-third">
-                        <p>Reference docs</p>
+                    <div class="column one-fourth">
+                        <p>Reference documentation provides its users with categorized information that they can refer to easily when it's needed.  Such categories include: API descriptions, configuration settings, policy rules, and so on.</p>
                     </div>
-                    <div class="column one-third">
-                        <p>List of docs.</p>
+                    <div class="column half">
+                        <dl>
+                            <dt>Reference documentation samples</dt>
+                            <dd>
+                                <p>The samples of reference documentation that I've listed below are for an Autodesk geographic information system (GIS) application called Topobase.  I wrote the PDF feature rules reference in structured Frame Maker. To produce the C# API reference document sets, I used a help authoring tool called Doc-O-Matic, which was able to generate Microsoft compiled HTML files (with a <code>.chm</code> file name extension).</p>
+                                <ul class="styledlist">
+                                    <li><a href="../res/docsamples/reference/Topobase_Client_API.chm">Autodesk Topobase Client API (<code>.chm</code>)</a></li>
+                                    <li><a href="../res/docsamples/reference/Topobase_Modules_API.chm">Autodesk Topobase Client API (<code>.chm</code>)</a></li>
+                                    <li><a href="../res/docsamples/reference/Topobase_ServerSide_API.chm">Autodesk Topobase Client API (<code>.chm</code>)</a></li>
+                                    <li><a href="../res/docsamples/reference/topobasefeaturerulereference.pdf">Autodesk Topobase Feature Rule Reference</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
                     </div>
                 </section>
             </div>
@@ -127,14 +147,22 @@
         <article>
             <div class="row">
                 <section>
-                    <div class="column one-third">
+                    <div class="column one-fourth">
                         <h2>Source Code</h2>
+                        <a name="sourcecode"></a>
                     </div>
-                    <div class="column one-third">
-                        <p>Source code.</p>
+                    <div class="column one-fourth">
+                        <p>Much of the work I've done with in-house, open source, and commercial documentation processing tools involved configuration and customization.  This meant that I had to write build scripts, DTDs, XSLT transformation scripts, and on one occasion a Java application to control XML source transformation and output file rendering.</p>
+                        <p>The processing tools that needed this attention included an in-house Java application, several releases of the DITA Open Toolkit, stand-alone XML transformation environments, and a commercial content management system (Ixiasoft DITA CMS).</p>
                     </div>
-                    <div class="column one-third">
-                        <p>List of source docs.</p>
+                    <div class="column half">
+                        <dl>
+                            <dt>Source code samples</dt>
+                            <dd>
+                                <p>Rather than add the source code samples to this website, I've committed the files to a GitHub repository. To see the samples, go to: <a href="https://github.com/drewhodge/doc_samples"><code>https://github.com/drewhodge/doc_samples</code></a>.</p> 
+                                <p>The sample code is in a subdirectoy called <code>source-code</code>.  The other subdirectories in the repository contain the sample documents I described and listed earlier on this page.</p>
+                            </dd>
+                        </dl>
                     </div>
                 </section>
             </div>
@@ -144,7 +172,7 @@
             <div class="row">
                 <div class="column full">
                     <!-- <p>Footer</p> -->
-                    
+                    <hr />
                     <p id="footercontent">[dwh]</p>
                 </div>    
             </div>
