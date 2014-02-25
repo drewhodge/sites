@@ -272,6 +272,7 @@ ul {
 }
 
 .caption {
+    font-size: smaller;
     display: block;
     position: relative;
     margin-left: -95px;
@@ -283,11 +284,18 @@ ul {
 }
 
 
-#logo img {
+#logoindex img {
     float: right;
     position:relative;
     margin-top: 5px;
     margin-right: -285px;
+}
+
+#logowrtsmp img {
+    float: right;
+    position:relative;
+    margin-top: 5px;
+    margin-right: -320px;
 }
 
 #logo p {
@@ -311,6 +319,8 @@ ul {
 #socmedialinks img {
     float: left;
     padding: 10px;
+    height: 75px;
+    width: 75px;
 }
 
 #firstname {
