@@ -74,7 +74,12 @@
                         <dl>
                             <dt>Online help samples</dt>
                             <dd>
-                                <p>The following links open HTML files for reading online. I wrote this content for IBM Rational Software using the DITA XML vocabulary and the Arbortext XML editor.  The documentation sets demonstrate DITA's typical concept, task, and reference structure.</p>
+                            <p>IBM Rational Software online help&#8212;demonstrates DITA's typical concept, task, and reference structure.</p>
+                                <ul class="unindentedlist">
+                                    <!-- <li>IBM Rational Software online help&#8212;demonstrate DITA's typical concept, task, and reference structure.</li> -->
+                                    <li><strong>Source</strong>: DITA XML</li>
+                                    <li><strong>Tools</strong>: Arbortext XML editor, IBM DITA workbench</li>
+                                </ul>
                                 <ul class="styledlist">
                                     <li><a href="../res/docsamples/analysis-online-help/com.ibm.xtools.analysis.common.doc.toc.html">Analyzing source code through static analysis</a></li>
                                     <li><a href="../res/docsamples/analysis-online-help/com.ibm.xtools.analysis.codereview.java.doc.toc.html">Performing an automated code review</a></li>
@@ -83,11 +88,27 @@
                             </dd>
                             <dt>Programmer's guide sample</dt>
                             <dd>
-                                <p>This PDF document, <a href="../res/docsamples/java-toolkit-guide/ettkjava_prog_guide.pdf">Entrust Security Toolkit for Java</a>, is for a developer audience. The guide describes how to use a set of application programming interfaces (APIs) for cryptographic operations in Entrust's Public Key Infrastructure.</p>
-                                <p>At the time I wrote this document, we were using an in-house XML vocabulary that I helped to design.  I wrote this sample document in XML and transformed the source to XSL formatting objects (XSL-FO) using XSLT transformation scripts.  I was then able to render the XSL-FO source as the final PDF with the RenderX formatting engine.  I've included samples of the scripts I used for this task in the <a href="#sourcecode">source code</a> section of this page.</p>
+                                <p>Entrust programmer's guide&#8212;describes how to use a set of application programming interfaces (APIs) for cryptographic operations in Entrust's Public Key Infrastructure.</p>
+                                <ul class="unindentedlist">
+                                    <li><strong>Source</strong>: XML (in-house vocabulary based on modular XHTML)</li>
+                                    <li><strong>Tools</strong>: XML&#8211;to&#8211;XSL-FO via XSLT, then XSL-FO&#8211;to&#8211;PDF via RenderX</li>
+                                </ul>
+                                <ul>
+                                    <li ><a href="../res/docsamples/java-toolkit-guide/ettkjava_prog_guide.pdf">Entrust Security Toolkit for Java</a></li>
+                                </ul>
+                                <p>I've included samples of the scripts I used to generate the XSL-FO code in the <a href="#sourcecode">source code</a> section of this page.</p>
                             </dd>
                             <dt>User's guide sample</dt>
-                            <dd>Another PDF document&#8212;a <a href="../res/docsamples/wr-workbench/c-plugins.pdf">section of a user's guide</a>&#8212; that describes how to integrate plug-ins into the Wind River Workbench developer tool that's based on the Eclipse Integrated Development Environment (IDE). I wrote this document using Frame Maker.</dd>
+                            <dd>
+                                <p>Section of a user's guide&#8212;describes how to integrate plug-ins into the Wind River Workbench developer tool based on the Eclipse Integrated Development Environment (IDE)</p>
+                                <ul class="unindentedlist">
+                                    <li><strong>Source</strong>: Frame Maker <code>.fm</code></li>
+                                    <li><strong>Tools</strong>: Adobe Distiller via Wind River build infrastructure</li>
+                                </ul>
+                                <ul>
+                                    <li><a href="../res/docsamples/wr-workbench/c-plugins.pdf">Integrating Eclipse Plug-ins</a></li>
+                                </ul>
+                            </dd>
                         </dl>
                     </div>
                 </section>
@@ -107,7 +128,12 @@
                         <dl>
                             <dt>Administration guide samples</dt>
                             <dd>
-                                <p>The following links open PDF files. The two sample documents in this section are for Entrust's Identification and Entitlements Servers, and for the Application Server Runtimes&#8212;security extensions for the BEA WebLogic Server and IBM WebSphere Application Server. To write these documents, I used Frame Maker for the text and Visio for the architecture diagrams.</p>
+                            <p>Entrust Identification Server, Entrust Entitlements Server, and Entrust Application Server Runtimes (security extensions for the BEA WebLogic Server and IBM WebSphere Application Server).</p>
+                                <!-- <p>The following links open PDF files. The two sample documents in this section are for Entrust's Identification and Entitlements Servers, and for the Application Server Runtimes&#8212;security extensions for the BEA WebLogic Server and IBM WebSphere Application Server. To write these documents, I used Frame Maker for the text and Visio for the architecture diagrams.</p> -->
+                                <ul class="unindentedlist">
+                                    <li><strong>Source</strong>: Frame Maker <code>.fm</code></li>
+                                    <li><strong>Tools</strong>: Adobe Distiller via Entrust build infrastructure</li>
+                                </ul>
                                 <ul class="styledlist">
                                     <li><a href="../res/docsamples/admin-guides/id_entitlements_server_guide.pdf">Entrust Identification/Entitlements Server</a></li>
                                     <li><a href="../res/docsamples/admin-guides/app_server_runtimes_guide.pdf">Entrust Application Server Runtimes</a></li>
@@ -132,8 +158,11 @@
                         <dl>
                             <dt>Reference documentation samples</dt>
                             <dd>
-                                <p>The samples of reference documentation that I've listed below are for an Autodesk geographic information system (GIS) application called Topobase.</p>
-                                <p> To produce the C# API reference document sets, I used a help authoring tool called Doc-O-Matic, which could generate Microsoft compiled HTML Help files (with a <code>.chm</code> file name extension).  I wrote the PDF feature rules reference in structured Frame Maker. </p>
+                                <p>Autodesk Topobase API references (Microsoft compiled HTML Help, <code>.chm</code> files) and feature rules reference (PDF).</p>
+                                <ul class="unindentedlist">
+                                    <li><strong>Source</strong>: C# embedded comments (APIs), Frame Maker <code>.fm</code> (PDF)</li>
+                                    <li><strong>Tools</strong>: Doc-O-Matic (APIs), Adobe Distiller via Autodesk build infrastructure</li>
+                                </ul>
                                 <ul class="styledlist">
                                     <li><a href="../res/docsamples/reference/Topobase_Client_API.chm">Autodesk Topobase Client API (<code>.chm</code>)</a></li>
                                     <li><a href="../res/docsamples/reference/Topobase_Modules_API.chm">Autodesk Topobase Modules API (<code>.chm</code>)</a></li>
