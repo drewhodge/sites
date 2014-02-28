@@ -177,7 +177,7 @@ textarea {
     margin: 0;
     width: 100%;
   }
-  #logo img {
+  #logoindex, #logowrtsmp, #logoprotected img {
       display: none;
   }
 }
@@ -252,7 +252,8 @@ nav a:link {
 
 nav a:hover {
     text-decoration: none;
-    color: #fb0008;
+    /* color: #fb0008; */
+    color: #757575;
 }
 
 ul {
@@ -300,6 +301,13 @@ ul {
     position:relative;
     margin-top: 5px;
     margin-right: -320px;
+}
+
+#logoprotected img {
+    float: right;
+    position:relative;
+    margin-top: 5px;
+    margin-right: -255px;
 }
 
 #logo p {
